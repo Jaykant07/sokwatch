@@ -1,4 +1,9 @@
 @import "tailwindcss";
+html,
+body,
+#root {
+  height: 100%;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -14,6 +19,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* smoother max-height transition utility (optional) */
+@layer utilities {
+  .transition-max {
+    transition-property: max-height;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+  }
+}
+
+/* make transitions smoother for nav height/color */
+nav {
+  transition: background-color 220ms ease, color 220ms ease,
+    box-shadow 220ms ease, backdrop-filter 220ms ease;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 6s ease-in-out infinite;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,8 +49,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  display: block;
   min-width: 320px;
   min-height: 100vh;
 }

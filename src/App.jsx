@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-white text-gray-800">
       <NavBar />
-      <main className="flex-1">
+      <main className="flex-1 pt-16">
         <Hero />
         <Services />
         <WhyUs />

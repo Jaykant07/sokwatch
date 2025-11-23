@@ -8,7 +8,7 @@ export default function ServiceCard({
   bullets,
 }) {
   return (
-    <div className="relative bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transform hover:-translate-y-3 transition card-border-top">
+    <div className="relative bg-indigo-200 rounded-2xl p-6 shadow-md hover:shadow-xl transform hover:-translate-y-3 transition card-border-top">
       <div className="text-3xl mb-4">{icon}</div>
       <h3 className="text-sokblue text-lg font-semibold">{title}</h3>
       {subtitle && (

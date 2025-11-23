@@ -4,7 +4,7 @@ export default function CTA() {
   return (
     <section
       id="contact"
-      className="py-12 bg-linear-to-br from-sokblue to-sokdeep text-black text-center"
+      className="py-12 bg-linear-to-br from-sokblue to-sokdeep text-black text-center bg-gray-100"
     >
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-2xl font-bold">

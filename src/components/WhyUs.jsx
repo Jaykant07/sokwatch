@@ -10,7 +10,7 @@ const Feature = ({ number, title, desc }) => (
 
 export default function WhyUs() {
   return (
-    <section id="why-us" className="py-20 bg-white">
+    <section id="why-us" className="py-20 bg-indigo-100">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl text-sokblue font-bold">
           Why Choose SokWatch?
