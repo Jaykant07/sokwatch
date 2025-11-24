@@ -53,7 +53,7 @@ export default function NavBar() {
         }`}
         aria-label="Main Navigation"
       >
-        <div className="max-w-6xl mx-auto w-full px-4 md:px-6 py-3 flex items-center justify-between">
+        <div className="w-full flex items-center justify-between px-4 md:px-8">
           <div className="flex items-center gap-3">
             <div className="text-xl font-extrabold bg-clip-text text-transparent bg-linear-to-br from-sokblue to-[#0486f0] md:text-2xl">
               🔐 SokWatch Technologies
